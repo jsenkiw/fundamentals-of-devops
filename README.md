@@ -49,3 +49,5 @@ https://developer.hashicorp.com/packer/install
 https://opentofu.org/docs/intro/install/
 
 *OpenTofu is an open source MPL 2.0 licensed fork of HashiCorp Terraform Provisioning Tool. Terraform is now licensed under BSL.* 
+
+### Part 3. How to Deploy Many Apps: Orchestration, VMs, Containers, and Serverless
