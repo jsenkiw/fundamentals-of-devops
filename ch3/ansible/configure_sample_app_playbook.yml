@@ -1,4 +1,6 @@
 - name: Configure servers to run the sample-app
+  serial: 1  
+  max_fail_percentage: 30
   hosts: sample_app_instances
   gather_facts: true
   become: true

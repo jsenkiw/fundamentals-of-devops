@@ -29,7 +29,7 @@
 
     - name: Create a new EC2 key pair
       amazon.aws.ec2_key:
-        name: ansible-ch3                                     
+        name: ansible-ch3                                    
         file_name: ansible-ch3.key
       no_log: true
       register: aws_ec2_key_pair
