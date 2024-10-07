@@ -1,5 +1,6 @@
 - name: Add Node packages to yum
   shell: curl -fsSL https://rpm.nodesource.com/setup_21.x | bash -
+  
 - name: Install Node.js
   yum:
     name: nodejs
