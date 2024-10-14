@@ -1,0 +1,23 @@
+kubectl apply -f sample-app-deployment.yml
+
+kubectl get deployments
+
+kubectl describe deployment sample-app-deployment
+
+kubectl get pods
+
+kubectl describe pod sample-app-deployment-64f97797fb-hcskq
+
+kubectl logs sample-app-deployment-64f97797fb-hcskq
+
+kubectl get services
+
+kubectl describe service sample-app-loadbalancer
+
+aws eks update-kubeconfig --region eu-west-2 --name eks-sample
+
+kubectl config use-context docker-desktop
+
+kubectl scale --replicas=0 -f sample-app-deployment.yml
+
+kubectl delete -f sample-app-deployment.yml
