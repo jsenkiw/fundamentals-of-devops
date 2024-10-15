@@ -2,7 +2,7 @@
 
 Working code examples from Blog/Book: Fundamentals of DevOps and Software Delivery by Yevgeniy Brikman.
 
-*The notes below assume you're using a Windows client with the tools running natively on the client machine.* 
+*The notes below assume you're using a Windows client with the tools running natively on the client machine where possible.* 
 
 *Ansible cannot run natively on Windows so WSL 2 was installed. WSL 2 is also prerequisite for Docker Desktop on Windows.*
 
@@ -15,6 +15,10 @@ https://www.gruntwork.io/fundamentals-of-devops
 **GIT for Windows/Linux**
 
 https://git-scm.com/downloads
+
+*Technically GIT is not required until Part 4 but I found it useful from the start*
+
+*GitHub Account is also required in Part 4*
 
 **Node.js**
 
@@ -60,12 +64,16 @@ https://docs.docker.com/desktop/
 
 *Install Docker Desktop to run Containers. Select WSL 2 at the Installation option instead of Hyper-V.*
 
-*Had to run docker commands from Administrator Powershell as I could not add my userid to docker-users Group.*
+*Had to run docker commands from Administrator Powershell account as I could not add my userid to docker-users Group.*
 
-*Due to a Bug in Docker Desktop I had to issue "wsl --unregister docker-desktop" command before starting  it after the initial Docker Desktop launch!*
+*Due to a Bug in Docker Desktop had to issue "wsl --unregister docker-desktop" command before starting it after the initial Docker Desktop launch!*
 
 **Kubernetes**
 
 https://kubernetes.io/docs/tasks/tools/
 
 *Enable Kubernetes in Docker Desktop and download "kubectl" Command Line Tool using above link.*
+
+### Part 4. How to Version, Build, and Test Your Code
+
+*Git and GitHub Account are required; see notes under Part 1*
