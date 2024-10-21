@@ -1,0 +1,16 @@
+{
+  "name": "sample-app",
+  "version": "4.0.0",
+  "description": "Sample Application: Fundamentals of DevOps",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dockerize": ".\\build-docker-image.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Senkiw",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
