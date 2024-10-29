@@ -1,0 +1,20 @@
+{
+  "name": "sample-app",
+  "version": "4.0.0",
+  "description": "Sample Application: Fundamentals of DevOps",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "dockerize": ".\\build-docker-image.sh",
+    "test": "jest --verbose --coverage"
+  },
+  "author": "John Senkiw",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}

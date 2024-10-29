@@ -16,13 +16,13 @@ https://www.gruntwork.io/fundamentals-of-devops
 
 https://git-scm.com/downloads
 
-*Technically GIT is not required until Part 4 but I found it useful from the start*
+*Technically GIT is not required until Part 4 but I found it useful from the start.*
 
-*GitHub Account is also required in Part 4*
+*GitHub Account is also required in Part 4 so create one at this point.*
 
 **Node.js**
 
-https://nodejs.org/en/download/package-manager
+https://nodejs.org/en/download/prebuilt-binaries
 
 **Fly.io**
 
@@ -77,3 +77,8 @@ https://kubernetes.io/docs/tasks/tools/
 ### Part 4. How to Version, Build, and Test Your Code
 
 *Git and GitHub Account are required; see notes under Part 1*
+
+**Terrascan** 
+
+https://runterrascan.io/docs/getting-started/#installing-terrascan
+
