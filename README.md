@@ -82,3 +82,6 @@ https://kubernetes.io/docs/tasks/tools/
 
 https://runterrascan.io/docs/getting-started/#installing-terrascan
 
+### Part 5. How to Set Up Continuous Integration (CI) and Continuous Delivery (CD)
+
+*GitHub Actions used for CI Server Testing*
