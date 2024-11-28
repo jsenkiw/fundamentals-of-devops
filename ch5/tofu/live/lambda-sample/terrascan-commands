@@ -1,0 +1,1 @@
+terrascan scan --iac-type terraform --non-recursive --verbose -c terrascan.toml
