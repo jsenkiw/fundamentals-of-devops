@@ -15,7 +15,7 @@ jobs:
 
       - uses: aws-actions/configure-aws-credentials@v3                          
         with:
-          role-to-assume: arn:aws:iam::424519345267:role/lambda-sample-tests    
+          role-to-assume: arn:aws:iam::424519345267:role/lambda-sample-tests 
           role-session-name: tests-${{ github.run_number }}-${{ github.actor }} 
           aws-region: eu-west-2
 
