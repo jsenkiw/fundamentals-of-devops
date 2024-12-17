@@ -85,3 +85,5 @@ https://runterrascan.io/docs/getting-started/#installing-terrascan
 ### Part 5. How to Set Up Continuous Integration (CI) and Continuous Delivery (CD)
 
 *GitHub Actions used for CI Server Testing*
+
+*Updated supplied module **gh-actions-iam-roles** to correct IAM authorization error when running Pipeline in Github. Required Role-Policy **iam:*RolePolicy** *   
