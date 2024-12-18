@@ -15,6 +15,11 @@ module "iam_roles" {
   oidc_provider_arn = module.oidc_provider.oidc_provider_arn
 
   enable_iam_role_for_testing = true
+  enable_iam_role_for_plan    = true
+  enable_iam_role_for_apply   = true
+
+  tofu_state_bucket         = "john.senkiw-fundamentals-of-devops-tofu-state"
+  tofu_state_dynamodb_table = "john.senkiw-fundamentals-of-devops-tofu-state" 
 
   github_repo      = "jsenkiw/fundamentals-of-devops"
   lambda_base_name = "lambda-sample"
