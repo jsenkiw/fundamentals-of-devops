@@ -86,4 +86,4 @@ https://runterrascan.io/docs/getting-started/#installing-terrascan
 
 *GitHub Actions used for CI Server Testing*
 
-*Updated supplied module **gh-actions-iam-roles** to correct IAM authorization error when running Pipeline in Github. Required Role-Policy:* **iam:\*RolePolicy**   
+*Updated supplied module **gh-actions-iam-roles** to correct IAM authorization error when running CI pipeline in Github Actions. Required Role-Policy:* **iam:\*RolePolicy**   
