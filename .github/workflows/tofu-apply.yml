@@ -35,7 +35,7 @@ jobs:
         with:
           state: all
 
-      - uses: john-senkiw/create-or-update-comment@v4                        
+      - uses: jsenkiw/create-or-update-comment@v4                        
         if: steps.find_pr.outputs.number
         env:
           RESULT_EMOJI: ${{ steps.apply.outcome == 'success' && '✅' || '⚠️' }}
