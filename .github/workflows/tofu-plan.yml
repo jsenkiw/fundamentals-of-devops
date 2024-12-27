@@ -31,7 +31,7 @@ jobs:
           tofu init -no-color -input=false
           tofu plan -no-color -input=false -lock=false
 
-      - uses: jsenkiw/create-or-update-comment@v4                       
+      - uses: peter-evans/create-or-update-comment@v4                       
         if: always()
         env:
           RESULT_EMOJI: ${{ steps.plan.outcome == 'success' && '✅' || '⚠️' }}
