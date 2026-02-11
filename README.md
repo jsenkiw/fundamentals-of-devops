@@ -24,11 +24,11 @@ https://git-scm.com/downloads
 
 https://nodejs.org/en/download/prebuilt-binaries
 
-**Fly.io**
+**Render**
 
-https://fly.io/docs/flyctl/install/
+https://render.com
 
-*Additionally Fly.io and AWS Accounts are necessary to run the code examples.*
+*Additionally Render and AWS Accounts are necessary to run the code examples.*
 
 ### Part 2. How to Manage Your Infrastructure as Code
 
